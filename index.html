@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>DataSeed for Change</title>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
@@ -13,107 +14,110 @@
   .chart-title {
     text-align: center;
   }
+
   .chart-wrapper {
     text-align: center;
     width: 100%;
   }
-	.chart-waffle {
-		width: 100%;
-		height: 220px;
-		padding: 0;
-		overflow-y: hidden;
-		overflow-x: auto;
-	}
-	<!-- .chart-permits-city { -->
-		<!-- width: 100%; -->
-		<!-- height: 220px; -->
-		<!-- padding: 8px; -->
-		<!-- position: relative; -->
-		<!-- overflow: hidden; -->
-		<!-- overflow-y: auto; -->
-		<!-- overflow-x: auto; -->
-	<!-- } -->
-	.chart-map {
-		width: 100%;
-		height: 640px;
-		padding: 5px 25px 5px;
-		overflow-y: hidden;
-		overflow-x: auto;
-	
-		position: relative;
-	}
+
+  .chart-waffle {
+    width: 100%;
+    height: 220px;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  .projectTitle {
+    font-size: 18pt;
+  }
+
+  < !-- .chart-permits-city {
+    -->< !-- width: 100%;
+    -->< !-- height: 220px;
+    -->< !-- padding: 8px;
+    -->< !-- position: relative;
+    -->< !-- overflow: hidden;
+    -->< !-- overflow-y: auto;
+    -->< !-- overflow-x: auto;
+    -->< !--
+  }
+
+  -->.chart-map {
+    width: 100%;
+    height: 640px;
+    padding: 5px 25px 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    position: relative;
+  }
+
   .chart-realmap {
-		width: 100%;
-		height: 100%;
-		padding: 5px 25px 5px;
-		overflow-y: hidden;
-		overflow-x: auto;
-	
-		position: relative;
-	}
+    width: 100%;
+    height: 100%;
+    padding: 5px 25px 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
 
-  
-	.dev-table {
-		width: 100%;
-		height: 500px;
-		padding: 0;
-		overflow-y: auto;
-		overflow-x: auto;
-	}
+    position: relative;
+  }
 
-  .navbar-brand
-{
+
+  .dev-table {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  .navbar-brand {
     font-size: 16pt;
     text-align: center;
-    
-}
 
-  .navbar-brand1
-{
+  }
+
+  .navbar-brand1 {
     width: 100%;
     text-align: center;
     left: 0;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 30pt;
-}
+  }
 
-.navbar-brand2
-{
+  .navbar-brand2 {
     width: 100%;
     text-align: center;
     left: 0;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 18pt;
-}
+  }
 
-.navbar-brand3
-{
+  .navbar-brand3 {
     width: 100%;
     left: 0;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 12pt;
     font-style: italic;
-}
-.navbar-brand4
-{
+  }
+
+  .navbar-brand4 {
     width: 100%;
     text-align: center;
     left: 0;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 22pt;
-}
-
-
-
+  }
 </style>
 
 
 <body class="application">
-	
+
   <div class="navbar justify-content-center navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-brand navbar-brand1">
@@ -121,252 +125,297 @@
       </div>
     </div>
   </div>
-  
-      
-      <div class="navbar-brand4">
+
+
+  <!-- <div class="navbar-brand4">
         KidsCareScape
-      </div>
-   
+      </div> -->
 
-<div class="container-fluid">
-	
-	
- <div class="row">
-	
 
-      <div class="chart-wrapper">
-        <div class="chart-title">
-          Find out all available childcare centers across the city, by type, program, and view its violations
-        
-          
-      <iframe width="90%" height="550px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" src="layouts/two-and-one/index_kids_2024_map.html"></iframe>
+  <div class="container-fluid">
+    <div class="col-sm-6">
+      <div class="jumbotron">
+        <h1 class="display-2 projectTitle">CleanCityScape</h1>
+        <p class="lead">Check what/when/where New Yorkers complain about NYC with real-time complaint data</p>
+        <hr class="my-4">
+        <p>Combination of data analysis of New York City complaint open data with D3/NVD3 and Leaflet to geo-represent over 14 years of complaints concerning NYC cleaning, plus realtime open complaint since 2024</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="https://data-go-deep.github.io/CleanCityScape/" role="button">Check CleanCityScape</a>
+        </p>
       </div>
-      <div>
-        <span>© Jonathan Guo 2024</span>
+
+      <div class="row">
+
+
+
       </div>
+
     </div>
-   
-    </div>
-   
+    <div class="col-sm-6">
+      <div class="jumbotron">
+        <h1 class="display-6">KidsCareScape</h1>
+        <p class="lead">Check comprehensive childcare centers across NYC on the map with all necessary information you want to know, including its past violation status for your consideration</p>
+        <hr class="my-4">
+        <p>Browse with ease of all DOHMH permitted childcare centers on the map, with all related information over the tooltip. Easy link to the childcare center by navigating from within the map</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="https://data-go-deep.github.io/KidsCareScape/" role="button">Check KidsCareScape</a>
+        </p>
+      </div>
 
-</div>
+      <div class="row">
+
+
+
+      </div>
+
+    </div>
+    <div class="col-sm-6">
+      <div class="jumbotron">
+        <h1 class="display-6">NourishWellScape</h1>
+        <p class="lead">Plan to show realtime farmers market and </p>
+        <hr class="my-4">
+        <p>Browse with ease of all DOHMH permitted childcare centers on the map, with all related information over the tooltip. Easy link to the childcare center by navigating from within the map</p>
+        <p class="lead">
+          <a class="btn btn-secondary btn-lg" href="#" role="button">Under Construction</a>
+        </p>
+      </div>
+
+      <div class="row">
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="chart-wrapper">
+    <div>
+      <span>© Jonathan Guo 2024</span>
+    </div>
+
+  </div>
+
+
+
 </body>
+
 </html>
 <hr>
 
-    <!-- <p class="small text-muted">Built by Jonathan Guo</a></p> -->
+<!-- <p class="small text-muted">Built by Jonathan Guo</a></p> -->
 
 
-  
 
 
-  <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript" src="assets/lib/holderjs/holder.js"></script>
-  <script>
-    Holder.add_theme("white", { background:"#fff", foreground:"#a7a7a7", size:10 });
-  </script>
+<script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript" src="assets/lib/keen-js/dist/keen.min.js"></script>
-  <script type="text/javascript" src="assets/js/meta.js"></script>
+<script type="text/javascript" src="assets/lib/holderjs/holder.js"></script>
 <script>
-var client = new Keen({
-  projectId: "5368fa5436bf5a5623000000",
-  readKey: "3f324dcb5636316d6865ab0ebbbbc725224c7f8f3e8899c7733439965d6d4a2c7f13bf7765458790bd50ec76b4361687f51cf626314585dc246bb51aeb455c0a1dd6ce77a993d9c953c5fc554d1d3530ca5d17bdc6d1333ef3d8146a990c79435bb2c7d936f259a22647a75407921056"
-});
+  Holder.add_theme("white", { background: "#fff", foreground: "#a7a7a7", size: 10 });
+</script>
 
-Keen.ready(function(){
+<script type="text/javascript" src="assets/lib/keen-js/dist/keen.min.js"></script>
+<script type="text/javascript" src="assets/js/meta.js"></script>
+<script>
+  var client = new Keen({
+    projectId: "5368fa5436bf5a5623000000",
+    readKey: "3f324dcb5636316d6865ab0ebbbbc725224c7f8f3e8899c7733439965d6d4a2c7f13bf7765458790bd50ec76b4361687f51cf626314585dc246bb51aeb455c0a1dd6ce77a993d9c953c5fc554d1d3530ca5d17bdc6d1333ef3d8146a990c79435bb2c7d936f259a22647a75407921056"
+  });
 
-  // ----------------------------------------
-  // Sample one
-  // ----------------------------------------
-  var pageviews_timeline = new Keen.Query("count", {
-    eventCollection: "pageviews",
-    interval: "hourly",
-    groupBy: "user.device_info.browser.family",
-    timeframe: {
-      start: "2014-05-04T00:00:00.000Z",
-      end: "2014-05-05T00:00:00.000Z"
-    }
-  });
-  client.draw(pageviews_timeline, document.getElementById("chart-01"), {
-    chartType: "areachart",
-    title: false,
-    height: 250,
-    width: "auto",
-    chartOptions: {
-      chartArea: {
-        height: "85%",
-        left: "5%",
-        top: "5%",
-        width: "80%"
-      },
-      isStacked: true
-    }
-  });
-  // ----------------------------------------
-  //  End sample one
-  // ----------------------------------------
+  Keen.ready(function () {
+
+    // ----------------------------------------
+    // Sample one
+    // ----------------------------------------
+    var pageviews_timeline = new Keen.Query("count", {
+      eventCollection: "pageviews",
+      interval: "hourly",
+      groupBy: "user.device_info.browser.family",
+      timeframe: {
+        start: "2014-05-04T00:00:00.000Z",
+        end: "2014-05-05T00:00:00.000Z"
+      }
+    });
+    client.draw(pageviews_timeline, document.getElementById("chart-01"), {
+      chartType: "areachart",
+      title: false,
+      height: 250,
+      width: "auto",
+      chartOptions: {
+        chartArea: {
+          height: "85%",
+          left: "5%",
+          top: "5%",
+          width: "80%"
+        },
+        isStacked: true
+      }
+    });
+    // ----------------------------------------
+    //  End sample one
+    // ----------------------------------------
 
 
-  // ----------------------------------------
-  // Sample two
-  // ----------------------------------------
-  var pageviews_static = new Keen.Query("count", {
-    eventCollection: "pageviews",
-    groupBy: "user.device_info.browser.family",
-    timeframe: {
-      start: "2014-05-01T00:00:00.000Z",
-      end: "2014-05-05T00:00:00.000Z"
-    }
-  });
-  client.draw(pageviews_static, document.getElementById("chart-02"), {
-    chartType: "piechart",
-    title: false,
-    height: 250,
-    width: "auto",
-    chartOptions: {
-      chartArea: {
-        height: "85%",
-        left: "5%",
-        top: "5%",
-        width: "100%"
-      },
-      pieHole: .4
-    }
-  });
-  // ----------------------------------------
-  // End sample two
-  // ----------------------------------------
+    // ----------------------------------------
+    // Sample two
+    // ----------------------------------------
+    var pageviews_static = new Keen.Query("count", {
+      eventCollection: "pageviews",
+      groupBy: "user.device_info.browser.family",
+      timeframe: {
+        start: "2014-05-01T00:00:00.000Z",
+        end: "2014-05-05T00:00:00.000Z"
+      }
+    });
+    client.draw(pageviews_static, document.getElementById("chart-02"), {
+      chartType: "piechart",
+      title: false,
+      height: 250,
+      width: "auto",
+      chartOptions: {
+        chartArea: {
+          height: "85%",
+          left: "5%",
+          top: "5%",
+          width: "100%"
+        },
+        pieHole: .4
+      }
+    });
+    // ----------------------------------------
+    // End sample two
+    // ----------------------------------------
 
-  // ----------------------------------------
-  // Sample three
-  // ----------------------------------------
-  var impressions_timeline = new Keen.Query("count", {
-    eventCollection: "impressions",
-    groupBy: "ad.advertiser",
-    interval: "hourly",
-    timeframe: {
-      start: "2014-05-04T00:00:00.000Z",
-      end: "2014-05-05T00:00:00.000Z"
-    }
-  });
-  client.draw(impressions_timeline, document.getElementById("chart-03"), {
-    chartType: "columnchart",
-    title: false,
-    height: 250,
-    width: "auto",
-    chartOptions: {
-      chartArea: {
-        height: "75%",
-        left: "10%",
-        top: "5%",
-        width: "60%"
-      },
-      bar: {
-        groupWidth: "85%"
-      },
-      isStacked: true
-    }
-  });
-  // ----------------------------------------
-  // End sample three
-  // ----------------------------------------
+    // ----------------------------------------
+    // Sample three
+    // ----------------------------------------
+    var impressions_timeline = new Keen.Query("count", {
+      eventCollection: "impressions",
+      groupBy: "ad.advertiser",
+      interval: "hourly",
+      timeframe: {
+        start: "2014-05-04T00:00:00.000Z",
+        end: "2014-05-05T00:00:00.000Z"
+      }
+    });
+    client.draw(impressions_timeline, document.getElementById("chart-03"), {
+      chartType: "columnchart",
+      title: false,
+      height: 250,
+      width: "auto",
+      chartOptions: {
+        chartArea: {
+          height: "75%",
+          left: "10%",
+          top: "5%",
+          width: "60%"
+        },
+        bar: {
+          groupWidth: "85%"
+        },
+        isStacked: true
+      }
+    });
+    // ----------------------------------------
+    // End sample three
+    // ----------------------------------------
 
-  // ----------------------------------------
-  // Sample four
-  // ----------------------------------------
-  var impressions_timeline_by_device = new Keen.Query("count", {
-    eventCollection: "impressions",
-    groupBy: "user.device_info.device.family",
-    interval: "hourly",
-    timeframe: {
-      start: "2014-05-04T00:00:00.000Z",
-      end: "2014-05-05T00:00:00.000Z"
-    }
-  });
-  client.draw(impressions_timeline_by_device, document.getElementById("chart-04"), {
-    chartType: "columnchart",
-    title: false,
-    height: 250,
-    width: "auto",
-    chartOptions: {
-      chartArea: {
-        height: "75%",
-        left: "10%",
-        top: "5%",
-        width: "60%"
-      },
-      bar: {
-        groupWidth: "85%"
-      },
-      isStacked: true
-    }
-  });
-  // ----------------------------------------
-  // End sample four
-  // ----------------------------------------
+    // ----------------------------------------
+    // Sample four
+    // ----------------------------------------
+    var impressions_timeline_by_device = new Keen.Query("count", {
+      eventCollection: "impressions",
+      groupBy: "user.device_info.device.family",
+      interval: "hourly",
+      timeframe: {
+        start: "2014-05-04T00:00:00.000Z",
+        end: "2014-05-05T00:00:00.000Z"
+      }
+    });
+    client.draw(impressions_timeline_by_device, document.getElementById("chart-04"), {
+      chartType: "columnchart",
+      title: false,
+      height: 250,
+      width: "auto",
+      chartOptions: {
+        chartArea: {
+          height: "75%",
+          left: "10%",
+          top: "5%",
+          width: "60%"
+        },
+        bar: {
+          groupWidth: "85%"
+        },
+        isStacked: true
+      }
+    });
+    // ----------------------------------------
+    // End sample four
+    // ----------------------------------------
 
-  // ----------------------------------------
-  // Sample five
-  // ----------------------------------------
-  var impressions_timeline_by_country = new Keen.Query("count", {
-    eventCollection: "impressions",
-    groupBy: "user.geo_info.country",
-    interval: "hourly",
-    timeframe: {
-      start: "2014-05-04T00:00:00.000Z",
-      end: "2014-05-05T00:00:00.000Z"
-    }
+    // ----------------------------------------
+    // Sample five
+    // ----------------------------------------
+    var impressions_timeline_by_country = new Keen.Query("count", {
+      eventCollection: "impressions",
+      groupBy: "user.geo_info.country",
+      interval: "hourly",
+      timeframe: {
+        start: "2014-05-04T00:00:00.000Z",
+        end: "2014-05-05T00:00:00.000Z"
+      }
+    });
+    client.draw(impressions_timeline_by_country, document.getElementById("chart-05"), {
+      chartType: "columnchart",
+      title: false,
+      height: 250,
+      width: "auto",
+      chartOptions: {
+        chartArea: {
+          height: "75%",
+          left: "10%",
+          top: "5%",
+          width: "60%"
+        },
+        bar: {
+          groupWidth: "85%"
+        },
+        isStacked: true
+      }
+    });
+    // ----------------------------------------
+    // End sample five
+    // ----------------------------------------
+    var impressions_timeline_by_country = new Keen.Query("count", {
+      eventCollection: "impressions",
+      groupBy: "user.geo_info.country",
+      interval: "hourly",
+      timeframe: {
+        start: "2014-05-04T00:00:00.000Z",
+        end: "2014-05-05T00:00:00.000Z"
+      }
+    });
+    client.draw(impressions_timeline_by_country, document.getElementById("chart-06"), {
+      chartType: "columnchart",
+      title: false,
+      height: 250,
+      width: "auto",
+      chartOptions: {
+        chartArea: {
+          height: "75%",
+          left: "10%",
+          top: "5%",
+          width: "60%"
+        },
+        bar: {
+          groupWidth: "85%"
+        },
+        isStacked: true
+      }
+    });
   });
-  client.draw(impressions_timeline_by_country, document.getElementById("chart-05"), {
-    chartType: "columnchart",
-    title: false,
-    height: 250,
-    width: "auto",
-    chartOptions: {
-      chartArea: {
-        height: "75%",
-        left: "10%",
-        top: "5%",
-        width: "60%"
-      },
-      bar: {
-        groupWidth: "85%"
-      },
-      isStacked: true
-    }
-  });
-  // ----------------------------------------
-  // End sample five
-  // ----------------------------------------
-  var impressions_timeline_by_country = new Keen.Query("count", {
-    eventCollection: "impressions",
-    groupBy: "user.geo_info.country",
-    interval: "hourly",
-    timeframe: {
-      start: "2014-05-04T00:00:00.000Z",
-      end: "2014-05-05T00:00:00.000Z"
-    }
-  });
-  client.draw(impressions_timeline_by_country, document.getElementById("chart-06"), {
-    chartType: "columnchart",
-    title: false,
-    height: 250,
-    width: "auto",
-    chartOptions: {
-      chartArea: {
-        height: "75%",
-        left: "10%",
-        top: "5%",
-        width: "60%"
-      },
-      bar: {
-        groupWidth: "85%"
-      },
-      isStacked: true
-    }
-  });
-});
 </script>
